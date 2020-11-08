@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode,jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/python,swift,xcode,vscode,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,swift,xcode,vscode,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -236,6 +236,14 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
 ### Xcode ###
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -253,4 +261,4 @@ iOSInjectionProject/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/swift,xcode,jupyternotebooks,python
+# End of https://www.toptal.com/developers/gitignore/api/python,swift,xcode,vscode,jupyternotebooks
