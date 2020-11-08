@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D0095759255898CB00FA9977 /* IndrikClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0095758255898CB00FA9977 /* IndrikClassification.mlmodel */; };
+		D00957622558A3C800FA9977 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00957602558A3C800FA9977 /* CardViewController.swift */; };
+		D00957632558A3C800FA9977 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00957612558A3C800FA9977 /* CardViewController.xib */; };
 		D0BCA11A2558968000AE296E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA1192558968000AE296E /* AppDelegate.swift */; };
 		D0BCA11C2558968000AE296E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA11B2558968000AE296E /* SceneDelegate.swift */; };
 		D0BCA11E2558968000AE296E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA11D2558968000AE296E /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		D0095758255898CB00FA9977 /* IndrikClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = IndrikClassification.mlmodel; path = ../../../MLModels/IndrikClassification.mlmodel; sourceTree = "<group>"; };
+		D00957602558A3C800FA9977 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		D00957612558A3C800FA9977 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 		D0BCA1162558968000AE296E /* LivingTESO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingTESO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BCA1192558968000AE296E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0BCA11B2558968000AE296E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				D0BCA1222558968100AE296E /* Assets.xcassets */,
 				D0BCA1242558968100AE296E /* LaunchScreen.storyboard */,
 				D0BCA1272558968100AE296E /* Info.plist */,
+				D00957602558A3C800FA9977 /* CardViewController.swift */,
+				D00957612558A3C800FA9977 /* CardViewController.xib */,
 			);
 			path = LivingTESO;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00957632558A3C800FA9977 /* CardViewController.xib in Resources */,
 				D0BCA1262558968100AE296E /* LaunchScreen.storyboard in Resources */,
 				D0BCA1232558968100AE296E /* Assets.xcassets in Resources */,
 				D0BCA1212558968000AE296E /* Main.storyboard in Resources */,
@@ -143,6 +150,7 @@
 				D0BCA11E2558968000AE296E /* ViewController.swift in Sources */,
 				D0095759255898CB00FA9977 /* IndrikClassification.mlmodel in Sources */,
 				D0BCA11A2558968000AE296E /* AppDelegate.swift in Sources */,
+				D00957622558A3C800FA9977 /* CardViewController.swift in Sources */,
 				D0BCA11C2558968000AE296E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
